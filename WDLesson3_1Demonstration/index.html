@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- WD Lesson 3.1: 
+     How can we add interactions to a web page? -->
+
+<!-- Resources 
+     https://www.w3schools.com/js/default.asp
+-->
+<html>
+  <head>
+ 
+    <title>WD Lesson 3.1</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      /* CSS: Create a class "clickable" that when the user hovers over the element the pointer changes to a hand */
+      .clickable{
+        cursor:pointer;
+      }
+    </style>
+        <script src="script.js"></script>
+  </head>
+  <!-- Example 4: Display "Welcome!" when the page loads. -->
+  <body onload="alert('Welcome')">
+    <div id="banner" class="container center">
+      <h1>Event Listener</h1>
+    </div>
+    <div id="content">
+        <!-- Example 1: Display "Hello World" when the user clicks on the heading -->
+        <h1 class="clickable" onclick="alert('Hello World')"> Click Me </h1>
+        <!-- Event listener: Action the user performs -->
+
+        <!-- Example 2: Display "Who is there?" when the user moves their mouse over the words, "Knock knock". -->
+        <span onmouseover="alert('Who is there?')"> Knock knock </span><br>
+        
+        <!-- Example 3: Display "Machine Learning" when the user double clicks their mouse over the image -->
+        <img src="ML.jpg" height="200px" ondblclick="alert('Machine Learning')"><br>
+    </div>
+  </body>
+</html>

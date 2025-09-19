@@ -1,0 +1,40 @@
+div,nav{
+  justify-content:center;
+  align-items:center;
+  border: solid 1px black;
+  font-size:16pt;
+  font-weight:bold;
+}
+.container{
+  display:flex;
+}
+#header{
+  height:100px;
+  background-color:PeachPuff;
+}
+
+nav{
+  background-color:Khaki;
+  padding:10px;
+}
+
+#leftpanel{
+  flex:150px 0 0;
+  background-color:Gold;
+  height:500px;
+}
+#centerpanel{
+  flex:3;
+  height:500px;
+  background-color:Plum;
+}
+#rightpanel{
+  flex:1;
+  background-color:Gold;
+  height:500px;
+}
+
+#foot{
+  height:50px;
+  background-color:PapayaWhip;
+}   

@@ -1,0 +1,32 @@
+body{
+  font-family:arial;
+  /*margin:0 auto;  New */
+}
+a{
+  text-decoration:none;
+}
+.click_me{
+  background-color:black;
+  padding:5px;
+  border-radius:5px;
+}
+.click_me:hover{
+  color:white !important;
+}
+/* CSS Specificity
+   Inline > id > class > element */
+
+nav{
+  padding:5px
+}
+nav a{
+  color:black;
+  margin:0 10px 0 10px;
+}
+/* Start */
+.banner{
+  background-color: black;
+  color:white;
+  padding:15px;
+  text-align:center;
+}

@@ -1,0 +1,37 @@
+/* CSS Specificity: CSS rules which are narrower in scope take "priority" over others. id > class > element 
+   For conflicting CSS rules with the same specificity, CSS rules that are physically written later take
+   precedence over previous rules.
+*/
+
+p{
+  font-family:Arial;
+  color:green;
+}
+
+.myFont{
+  font-style:italic;
+  color:red;
+}
+
+#fancy{
+  text-decoration: underline;
+  color:blue;
+}
+
+.black{
+  color:black;
+}
+
+
+img{
+  height:150px;
+}
+
+.logo{
+  border:2px solid black;
+}
+
+#highlight{
+  box-shadow:2px 2px 2px black;
+}
+

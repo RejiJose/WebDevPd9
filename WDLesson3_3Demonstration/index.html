@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- WD Lesson 3.3: 
+     How do we interact with an element on a web page?  -->
+
+<!-- Resources 
+    https://www.w3schools.com/js/js_htmldom_methods.asp 
+    https://www.w3schools.com/jsref/met_document_getelementbyid.asp
+
+     YouTube Video Lesson
+     https://youtu.be/t2R9hOkM_ZU 
+-->
+<html>
+  <head>
+    <title>WD Lesson 3.3</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <!-- Call the bridge() when the user mouse their mouse over the words "bridge" -->
+    <div id="banner" class="container center">
+      <h1>Interact with HTML Elements</h1>
+    </div>
+    <div class="container">
+      <div id="left" class="container">
+        <span onmouseover="bridge()"> Bridge </span>
+        <span onmouseover="park()"> Park </span>
+        <span onmouseover="square()"> Square </span>
+      </div>
+      <div id="box" class="container center">
+        <div>
+          <h2 id="title"> </h2>
+          <img id="landmark" src="" >
+        </div>
+      </div>
+    </div>
+    <div id="footer" class="container">
+      NYC &copy; 2021
+    </div>
+  </body>
+</html>

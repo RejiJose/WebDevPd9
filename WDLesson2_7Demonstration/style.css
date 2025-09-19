@@ -1,0 +1,22 @@
+.container{
+  display:flex;
+  background-color:blue;
+  padding:2px;
+}
+
+.container div{
+  flex:1;
+  background-color:white;
+  margin:2px;
+}
+
+#banner{
+  justify-content:center;
+  align-items:center;
+  height:200px;
+  color:white;
+}
+
+.columns{
+  flex-direction: column;
+}

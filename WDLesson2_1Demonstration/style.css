@@ -1,0 +1,26 @@
+/* Change the color of the text of all heading 1 to red */
+h1{
+  color:red;
+}
+/* Change the size of the font of all heading 3 to 20pt */
+h3{
+  font-size: 20pt;
+}
+/* Change the style of the font of all paragraphs to italic */
+p{
+  font-style: italic;
+}
+
+/* Change the background color of all divs to blue */
+div{
+  background-color:blue;
+}
+
+/* Change the family of font for all text in paragraphs to Comic Sans MS */
+p{
+  font-family: Comic Sans Ms;
+}
+
+div{
+  color:white;
+}

@@ -1,0 +1,19 @@
+html,body{
+    margin:0px;
+    height:100%
+}
+.container{
+    display:flex;
+}
+
+.center{
+    justify-content:center;
+    align-items: center;
+}
+#banner{
+    background-color:blue;
+    color:white;
+}
+#content{
+    padding:10px;
+}

@@ -1,0 +1,30 @@
+html,body{
+    font-family:Arial;
+    margin: 0 auto;
+  }
+  .container{
+    display:flex;
+  }
+  #banner{
+    height:150px;
+    background-color: blue;
+    color:white;
+  }
+  #main{
+    height:400px;
+    padding:10px;
+  }
+  #footer{
+    background-color: blue;
+    color:white;
+    padding:10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width:100%;
+  }
+  .center{
+    justify-content:center;
+    align-items:center;
+  }
+  

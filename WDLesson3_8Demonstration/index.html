@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>WD Lesson 3.8</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script>
+
+    </script>
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <div id="banner" class="container center">
+      <h1>Errors in programs</h1>
+    </div>
+    <div class="container subbanner">
+      <div>
+        <p>This example demonstrates the three types of errors you can have in a program: Syntax, Runtime and Logical errors.</p>
+        <div class="heading"> Scenario</div>
+        Calculate and display the average of three grades that the user enters.
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="card">
+        <h3> Syntax Errors </h3>
+        <p> These types are physical mistakes in the way instructions were written such as spelling mistakes, missing or incomplete parentheses, quotations or brackets.<span class="highlight"> These errors stop a program from running</span>
+        </p>
+        <h3> Runtime Errors </h3>
+        <p> As the name implies these errors occur when the program is running but a situation arises that stop the execution of the program such as invalid user input or incorrect calculation that results in an illegal operation.<span class="highlight"> These errors allow the program to run under normal conditions but stop when an illegal operation is encountered.</span>
+        <h3> Logical Errors </h3>
+        <p> These errors are typically the toughest to fix because they do not stop your program nor produce error messages to the console but still produce the wrong outcome<span class="highlight"> These errors will not stop a program.</span>
+        </p>
+      </div>
+      <div class="card"> 
+        <input type="text" id="g1" placeholder="Enter Grade 1">
+        <input type="text" id="g1" placeholder="Enter Grade 2">
+        <input type="button" value="Average" onclick="average()>
+        <div id="results"></div>
+        <!-- Note: There are three potential errors in the above code that can be addressed in either the HTML or the JS                    
+                   1) Check the id of the text inputs and the div container (Runtime)
+                   2) Missing closing quotations in the event handler reference (Syntax)
+                   3) Incorrect reference to event handler (Runtime)
+                   4) Insufficient text inputs for calculating the average of three numbers (Logical / Runtime)
+        -->
+      </div>
+    </div>
+    <div id="footer" class="container center">
+      <h3>WD Lesson 3.8 Demonstration</h3>
+    </div> 
+  </body>
+</html>

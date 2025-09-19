@@ -1,0 +1,37 @@
+body{
+  font-family:arial;
+}
+
+#click_me{
+  background-color:black;
+  color:white;
+  padding:5px;
+  border-radius:4px;
+}
+/* When you place your mouse over the element with an id of "click_me", change the background color to blue */
+#click_me:hover{
+  background-color:blue;
+}
+
+/* When the user hovers over a link inside the element with an id of "nav", change the color of the link to yellow */
+#nav a:hover{
+  border-bottom: 4px solid red;
+}
+
+/* Change the text decoration of all hyperlinks to none.  This removes the underline */
+a{
+  text-decoration:none;
+}
+
+.gallery img{
+  width:24%;
+  filter: grayscale(100%);
+}
+/* Remove the filter from the image inside an element with a class of "gallery" when the user moves their mouse over the image */
+.gallery img:hover{
+  filter:none;
+}
+
+*{
+  transition:1s;
+}

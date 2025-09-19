@@ -1,0 +1,39 @@
+html,body{
+  font-family:Arial;
+  margin: 0 auto;
+}
+.container{
+  display:flex;
+}
+#left{
+  width:150px;
+  flex-direction:column;
+}
+#box{
+  flex:1;
+}
+#box img{
+  height:300px;
+}
+span{
+  padding:10px;
+  margin:10px;
+  background-color: blue;
+  color:white;
+  border-radius:10px;
+  cursor:pointer;
+}
+#banner{
+  height:150px;
+  background-color: blue;
+  color:white;
+}
+#footer{
+  background-color: blue;
+  color:white;
+  padding:10px;
+}
+.center{
+  justify-content:center;
+  align-items:center;
+}

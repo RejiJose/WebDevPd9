@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- WD Lesson 3.2: 
+     What are function and event handlers? -->
+
+<!-- Resources 
+     https://www.w3schools.com/js/js_functions.asp
+     https://www.w3schools.com/js/js_functions.asp
+     https://www.w3schools.com/js/js_events.asp
+
+     YouTube Video Lesson
+     https://youtu.be/4sVNWeXq_I4
+-->
+<html>
+  <head>
+ 
+    <title>WD Lesson 3.2A</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+    <script>
+      /* Example 1: Create a function greeting ( ) displays in a pop up window "Hello World" */
+      
+      function greeting(){
+        alert(`Hello World`);
+      }
+      //Event Handler
+    </script>
+  </head>
+  <!-- Example 2: Call greeting ( ) when the page loads -->
+  <body onload="greeting()">
+    <div id="banner" class="container center">
+      <h1>Event Handler</h1>
+    </div>
+
+    <!-- Example 3: Call greeting ( ) when the user clicks on the <h1> with "Click Me" -->
+    <h1 onclick="greeting()"> Click Me </h1>
+    <!-- Event Handler: Function execute -->
+
+    <!-- Example 4: Call greeting ( ) when the user double clicks on the img -->
+    <img src="ML.jpg" height="200px" ondblclick="greeting()"><br>
+    
+  </body>
+</html>

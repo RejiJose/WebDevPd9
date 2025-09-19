@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- WD Lesson 2.4: How can we combine selectors to specify a CSS rule?-->
+<!-- Resources 
+      https://www.w3schools.com/css/default.asp 
+      https://www.w3schools.com/css/css_selectors.asp 
+      https://www.w3schools.com/css/css_combinators.asp 
+-->
+<html>
+  <head>
+    <title>Exploring Combinators Selectors</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <h1>Complex Selectors</h1>
+    <p>The element, class and id selectors can be combined to create more complex selectors.  
+      Notice how the above heading and this paragraph are unaffected by the CSS rules in Challenges 4 and 5</p>
+    <div class="container">
+      <h1>.container h1</h1>
+      <p>The above selector demonstrates how to select all the headings in elements with a class of "container"</p>
+    </div>
+    <div class="container">
+      <h1>.container p</h1>
+      <p>The above selector demonstrates how to select all the paragraphs in elements with a class of "container"</p>
+    </div>
+    <div id="testArea">
+      <h1>#testArea h1</h1>
+      <p>The above selector demonstrates how to select all the headings within an element with an id of testArea</p>
+      <p>Two of more selectors can be specified for a CSS rule by separating the selectors with comma.<br>
+        <code>
+          a, div, span{<br>
+          &nbsp;&nbsp;text-shadow:2px 2px red;</br>
+          }<br>
+        </code>
+        Above CSS rule would add a shadow to the text for all anchors,containers both div and span
+      </p>
+    </div>
+  </body>
+</html>
