@@ -11,15 +11,27 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <p id="large"> Paragraph 1</p>
-    <p class="myFont"> Paragraph 2</p>
-    <p class="myFont black"> Paragraph 3</p> 
-    <p class="myFont" id="fancy"> Paragraph 4</p>
+    <p> Paragraph 1  (element selector)</p>
 
+    <p class="red"> Paragraph 2  (class attribute - one class)</p>
+    <p class="red black"> Paragraph 3  (class attribute - multiple classes(different values for same property)</p>
+
+    <p id="blue_underlined"> Paragraph 4  (id selector)</p>
+
+    <p class="black" id="large_font"> Paragraph 5 (has id and class attributes)</p>
+
+    <p style="color:tan;" id="cyan" class="red"> Paragraph 6 (with inline styling, plus id and class )</p>
+
+    <hr>
+    All 3 images below have the same height <br>
+    2nd image has a red border <br>
+    3rd image has red border and yellow shadow <hr>
 
     <img src="html.png">
-    <img src="css.png" class="logo">
-    <img src="js.png" class="logo" id="highlight">
+
+    <img src="css.png" class="border_red">
+
+    <img src="js.png" class="border_red" id="shadow_yellow">
     
   </body>
 </html>

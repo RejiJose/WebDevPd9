@@ -1,37 +1,43 @@
-/* CSS Specificity: CSS rules which are narrower in scope take "priority" over others. id > class > element 
-   For conflicting CSS rules with the same specificity, CSS rules that are physically written later take
+/* CSS Specificity: CSS rules which are narrower in scope take "priority" over others. 
+   Hierarchy: inline style > id > class > element > universal(*)
+
+   Note: For conflicting CSS rules with the same specificity, CSS rules that are physically written later take
    precedence over previous rules.
 */
 
-p{
-  font-family:Arial;
+p{  
   color:green;
 }
 
-.myFont{
-  font-style:italic;
+.red{
   color:red;
-}
-
-#fancy{
-  text-decoration: underline;
-  color:blue;
 }
 
 .black{
   color:black;
 }
 
+#blue_underlined{
+  color:blue;
+  text-decoration: underline;
+}
+
+#large_font{
+  font-size:20pt;
+}
+#cyan{
+  color:cyan;
+}
 
 img{
   height:150px;
 }
 
-.logo{
-  border:2px solid black;
+.border_red{
+  border:2px solid red;
 }
 
-#highlight{
-  box-shadow:2px 2px 2px black;
+#shadow_yellow{
+  box-shadow:5px 5px yellow;
 }
 
